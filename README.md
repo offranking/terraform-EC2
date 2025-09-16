@@ -21,15 +21,16 @@ Log in to your AWS Management Console, In the search bar, type IAM and navigate 
 ### Create a terraform configurations file by Using nano main.tf or touch main.tf
 <img width="974" height="84" alt="Screenshot 2025-08-17 at 12 58 24 pm" src="https://github.com/user-attachments/assets/6dc82a88-e75b-42f8-8dcb-13c775e72258" />
 
-## Open the files and put in your terraform code inside the file 
+### Open the files and put in your terraform code inside the file 
 
 <img width="967" height="768" alt="Screenshot 2025-08-17 at 1 14 44 pm" src="https://github.com/user-attachments/assets/834b9009-5ad9-4f78-a53b-6fbbc6f831aa" />
 
-## After paste in the code inside the terraform configurations files run the command "terraform init"
+### After paste in the code inside the terraform configurations files run the command "terraform init"
 <img width="1055" height="407" alt="Screenshot 2025-08-17 at 1 17 18 pm" src="https://github.com/user-attachments/assets/076d06e5-48f5-4e51-a8eb-0ed922bd5197" />
 
-## For this part of the project, you need to run terraform apply
+### For this part of the project, you need to run terraform apply
 <img width="1212" height="273" alt="Screenshot 2025-09-07 at 12 08 15 am" src="https://github.com/user-attachments/assets/25a6dc10-85cd-48c9-8997-dba4a0e9e050" />
+
 
 
 
