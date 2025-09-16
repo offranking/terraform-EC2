@@ -29,11 +29,18 @@ Log in to your AWS Management Console, In the search bar, type IAM and navigate 
 <img width="1055" height="407" alt="Screenshot 2025-08-17 at 1 17 18 pm" src="https://github.com/user-attachments/assets/076d06e5-48f5-4e51-a8eb-0ed922bd5197" />
 
 ### For this part of the project, you need to run terraform apply
-<img width="1212" height="273" alt="Screenshot 2025-09-07 at 12 08 15 am" src="https://github.com/user-attachments/assets/25a6dc10-85cd-48c9-8997-dba4a0e9e050" />
+<img width="1436" height="853" alt="Screenshot 2025-09-16 at 4 24 54 pm" src="https://github.com/user-attachments/assets/8f209825-fc92-49e6-a8e9-eec3064b4304" />
 
 
+<img width="1436" height="856" alt="Screenshot 2025-09-16 at 4 26 22 pm" src="https://github.com/user-attachments/assets/93bf296d-30ba-473f-8e14-a4e82ef41b6a" />
 
 
+### Copy public_ip = "54.83.184.30"
+<img width="1412" height="501" alt="Screenshot 2025-09-16 at 4 28 57 pm" src="https://github.com/user-attachments/assets/d6322ca3-987c-4634-b05b-23932b23b065" />
+
+
+### On the public_ip = "54.83.184.30" on your web browser you will get this result 
+<img width="1436" height="832" alt="Screenshot 2025-09-16 at 3 35 27 pm" src="https://github.com/user-attachments/assets/93bbb4ff-b983-4b07-b942-89e25cd69f1d" />
 
 
 
