@@ -28,7 +28,17 @@ Log in to your AWS Management Console, In the search bar, type IAM and navigate 
 ### After paste in the code inside the terraform configurations files run the command "terraform init"
 <img width="1055" height="407" alt="Screenshot 2025-08-17 at 1 17 18 pm" src="https://github.com/user-attachments/assets/076d06e5-48f5-4e51-a8eb-0ed922bd5197" />
 
-### For this part of the project, you need to run terraform apply
+### on this part we need to run "terraform validate"
+<img width="934" height="121" alt="Screenshot 2025-09-16 at 4 51 36 pm" src="https://github.com/user-attachments/assets/02141119-8930-49ca-a90e-c58bb1067673" />
+
+### After running terraform validate to ensure the configuration is correct, run terraform plan. This command creates an execution plan, showing you the resources Terraform will create, modify, or destroy. Review the plan carefully to confirm everything looks as expected before applying the changes
+
+<img width="1081" height="204" alt="Screenshot 2025-09-16 at 4 53 26 pm" src="https://github.com/user-attachments/assets/a8454dec-429d-42a3-96d7-6f9ad78b0563" />
+
+
+
+### For this part of the project, you need to run terraform apply. This command takes the execution plan (similar to what you see when you run terraform plan) and carries it out by creating, updating, or destroying resources as defined in your configuration. When you run terraform apply, Terraform will first show you the proposed changes and ask for confirmation—type yes to proceed. Once confirmed, Terraform provisions the infrastructure and, when complete, displays the outputs you defined.
+
 <img width="1436" height="853" alt="Screenshot 2025-09-16 at 4 24 54 pm" src="https://github.com/user-attachments/assets/8f209825-fc92-49e6-a8e9-eec3064b4304" />
 
 
@@ -42,6 +52,10 @@ Log in to your AWS Management Console, In the search bar, type IAM and navigate 
 ### On the public_ip = "54.83.184.30" on your web browser you will get this result 
 <img width="1436" height="832" alt="Screenshot 2025-09-16 at 3 35 27 pm" src="https://github.com/user-attachments/assets/93bbb4ff-b983-4b07-b942-89e25cd69f1d" />
 
+### After completing and cleaning up your work, you can run terraform destroy. This command safely tears down all the infrastructure defined in your Terraform configuration. When executed, Terraform will first generate a plan showing which resources will be destroyed. It will then prompt you for confirmation—type yes to proceed. Once confirmed, Terraform deletes all the resources it had previously created, leaving your environment clean
 
+<img width="1081" height="204" alt="Screenshot 2025-09-16 at 4 53 26 pm" src="https://github.com/user-attachments/assets/25e7bb5c-6ecf-4091-bc60-6eb38eee151d" />
+
+<img width="1436" height="779" alt="Screenshot 2025-09-16 at 5 04 51 pm" src="https://github.com/user-attachments/assets/08639e1e-ef47-440c-bf9e-5037aec7da19" />
 
 
